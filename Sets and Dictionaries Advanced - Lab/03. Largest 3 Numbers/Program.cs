@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace _03._Largest_3_Numbers
 {
@@ -6,7 +7,12 @@ namespace _03._Largest_3_Numbers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           int [] numbers = Console.ReadLine().Split(" ",StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).OrderByDescending(x => x).Take(3).ToArray();
+            foreach (int number in numbers)
+            {
+                Console.Write(number + " ");
+            }
+            Console.WriteLine();
         }
     }
 }
