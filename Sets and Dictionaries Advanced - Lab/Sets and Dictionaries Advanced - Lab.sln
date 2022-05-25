@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Cities by Continent and
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Record Unique Names", "06. Record Unique Names\06. Record Unique Names.csproj", "{B675B6C8-91CD-46F1-B1E3-C3BF533A4F42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Parking Lot", "07. Parking Lot\07. Parking Lot.csproj", "{25D5D2F9-A919-4A7B-8099-F59EB06727E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. SoftUni Party", "08. SoftUni Party\08. SoftUni Party.csproj", "{ABC4342C-0A50-4A93-906C-65CA6620009F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{B675B6C8-91CD-46F1-B1E3-C3BF533A4F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B675B6C8-91CD-46F1-B1E3-C3BF533A4F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B675B6C8-91CD-46F1-B1E3-C3BF533A4F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D5D2F9-A919-4A7B-8099-F59EB06727E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D5D2F9-A919-4A7B-8099-F59EB06727E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D5D2F9-A919-4A7B-8099-F59EB06727E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D5D2F9-A919-4A7B-8099-F59EB06727E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC4342C-0A50-4A93-906C-65CA6620009F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC4342C-0A50-4A93-906C-65CA6620009F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC4342C-0A50-4A93-906C-65CA6620009F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC4342C-0A50-4A93-906C-65CA6620009F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
