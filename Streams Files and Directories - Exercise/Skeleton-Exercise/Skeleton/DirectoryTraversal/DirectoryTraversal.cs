@@ -9,46 +9,66 @@
     {
         static void Main()
         {
-            string directory = Console.ReadLine();
-            SortedDictionary<string, Dictionary<string, double>> extensions = new SortedDictionary<string, Dictionary<string, double>>();
-            DirectoryInfo directorySelected = new DirectoryInfo(directory);
-            FileInfo[] whole = directorySelected.GetFiles();
+            string path = Console.ReadLine();
+            string reportFileName = @"\report.txt";
 
-            GetFileExtensions(extensions, whole);
+            string reportContent = TraverseDirectory(path);
+            Console.WriteLine(reportContent);
 
-            GroupAndWrite(extensions);
-
+            WriteReportToDesktop(reportContent, reportFileName);
         }
-        static void GroupAndWrite(SortedDictionary<string, Dictionary<string, double>> extensions)
+
+        public static string TraverseDirectory(string inputFolderPath)
         {
-            var orderedExtension = extensions.OrderByDescending(p => p.Value.Count).ThenBy(ext => ext.Key);
-            using (StreamWriter destination = new StreamWriter(@"C:\Users\sv.spasov\Desktop\report.txt"))
+            string[] files = Directory.GetFiles(inputFolderPath);
+            //разширение -> списък с файловете
+            Dictionary<string, List<FileInfo>> extensionsInfo = new Dictionary<string, List<FileInfo>>();
+            //за всеки файл ни трябва разширението
+            foreach (string file in files)
             {
-                foreach (var item in orderedExtension)
+                //информация за файла -> разришението
+                FileInfo fileInfo = new FileInfo(file);
+                string extension = fileInfo.Extension;
+
+                if (!extensionsInfo.ContainsKey(extension))
                 {
-                    destination.WriteLine(item.Key);
-                    var orderedDic = item.Value.OrderBy(f => f.Value);
-                    foreach (var output in orderedDic)
-                    {
-                        destination.WriteLine("{ 0}{1}kb", output.Key, output.Value / 1024);
-                    }
+                    extensionsInfo.Add(extension, new List<FileInfo>());
+                }
+
+                extensionsInfo[extension].Add(fileInfo);
+            }
+
+
+            //1. be ordered by the count of list descending
+            //2. name extenstions ascending
+            //запис: key(разширение) -> value (списък с файлове)
+
+            foreach (var entry in extensionsInfo.OrderByDescending(entry => entry.Value.Count).ThenBy(entry => entry.Key))
+            {
+                //вземем на всяко разширение списъка с файловете
+
+                string extension = entry.Key;
+                Console.WriteLine(extension);  //TODO: put in stringBuilder
+                List<FileInfo> filesInfo = entry.Value;
+                //списък с файловете трябва да се сортира спрямо размета на файла
+                filesInfo.OrderByDescending(file => file.Length);
+
+                foreach (FileInfo fileInfo in filesInfo)
+                {
+                    //BYTES / 1024 -> KB
+                    Console.WriteLine($"--{fileInfo.Name} - {fileInfo.Length / 1024:F3}kb"); //TODO: put in stringBuilder
                 }
             }
+
+            return ""; //TODO: return sb.toString();
         }
-        static void GetFileExtensions(SortedDictionary<string, Dictionary<string, double>> extensions, FileInfo[] files)
+
+        public static void WriteReportToDesktop(string textContent, string reportFileName)
         {
-            foreach (var n in files)
-            {
-                if (!extensions.ContainsKey(n.Extension))
-                {
-                    extensions.Add(n.Extension, new Dictionary<string, double>
-                                    {{string.Format("--{0} - ", n.Name), n.Length}});
-                }
-                else
-                {
-                    extensions[n.Extension].Add(string.Format("--{0} - ", n.Name), n.Length);
-                }
-            }
+            //textContent да го напиша във файл с име reportFileName
+            string pathReport = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + reportFileName;
+            //"C:\Users\I353529\Desktop" + "\report.txt" -> "C:\Users\I353529\Desktop\report.txt"
+            File.WriteAllText(pathReport, textContent);
         }
     }
 }
