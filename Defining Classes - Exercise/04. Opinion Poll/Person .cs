@@ -1,23 +1,16 @@
-﻿using System.Collections.Generic;
-
-namespace DefiningClasses
+﻿namespace DefiningClasses
 {
-    
     public class Person
     {
         private string name;
         private int age;
-       
 
-        public Person()
+        public Person() : this("No name", 1)
         {
-            this.Name = "No name";
-            this.Age = 1;
         }
 
-        public Person(int age) : this()
+        public Person(int age) : this("No name", age)
         {
-            this.Age = age;
         }
 
         public Person(string name, int age)
@@ -36,6 +29,10 @@ namespace DefiningClasses
         {
             get { return this.age; }
             set { this.age = value; }
+        }
+        public override string ToString()
+        {
+            return $"{this.Name} - {this.Age}";
         }
     }
 }
