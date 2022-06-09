@@ -5,9 +5,11 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Meal Plan", "01.Meal Plan\01.Meal Plan.csproj", "{A9D96B49-2F0E-4F9A-A8A3-61186F5476A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Bakery Shop", "01. Bakery Shop\01. Bakery Shop.csproj", "{C27C751E-4DB2-44A8-BA82-B61C6E1A7FA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Bakery Shop", "01. Bakery Shop\01. Bakery Shop.csproj", "{C27C751E-4DB2-44A8-BA82-B61C6E1A7FA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Blacksmith", "01. Blacksmith\01. Blacksmith.csproj", "{BEA69E3C-1194-4E78-AB4E-3529B0FD411F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Blacksmith", "01. Blacksmith\01. Blacksmith.csproj", "{BEA69E3C-1194-4E78-AB4E-3529B0FD411F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Food Finder", "01. Food Finder\01. Food Finder.csproj", "{C14635B0-E8F4-47C8-81DA-019E25F8D88C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{BEA69E3C-1194-4E78-AB4E-3529B0FD411F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEA69E3C-1194-4E78-AB4E-3529B0FD411F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEA69E3C-1194-4E78-AB4E-3529B0FD411F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14635B0-E8F4-47C8-81DA-019E25F8D88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14635B0-E8F4-47C8-81DA-019E25F8D88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14635B0-E8F4-47C8-81DA-019E25F8D88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14635B0-E8F4-47C8-81DA-019E25F8D88C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
