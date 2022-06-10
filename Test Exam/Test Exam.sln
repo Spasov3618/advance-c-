@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Blacksmith", "01. Black
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Food Finder", "01. Food Finder\01. Food Finder.csproj", "{C14635B0-E8F4-47C8-81DA-019E25F8D88C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Truffle Hunter", "02. Truffle Hunter\02. Truffle Hunter.csproj", "{E3AE72A8-EEFF-47CB-A92E-EE46481D2233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Truffle Hunter", "02. Truffle Hunter\02. Truffle Hunter.csproj", "{E3AE72A8-EEFF-47CB-A92E-EE46481D2233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Beaver at Work", "02. Beaver at Work\02. Beaver at Work.csproj", "{D7B03246-AA6D-4331-A2FB-D588CBAA46DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E3AE72A8-EEFF-47CB-A92E-EE46481D2233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3AE72A8-EEFF-47CB-A92E-EE46481D2233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3AE72A8-EEFF-47CB-A92E-EE46481D2233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B03246-AA6D-4331-A2FB-D588CBAA46DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B03246-AA6D-4331-A2FB-D588CBAA46DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B03246-AA6D-4331-A2FB-D588CBAA46DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B03246-AA6D-4331-A2FB-D588CBAA46DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
