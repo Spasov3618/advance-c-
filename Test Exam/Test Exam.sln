@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32228.430
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Meal Plan", "01.Meal Plan\01.Meal Plan.csproj", "{A9D96B49-2F0E-4F9A-A8A3-61186F5476A0}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Beaver at Work", "02. Beaver at Work\02. Beaver at Work.csproj", "{D7B03246-AA6D-4331-A2FB-D588CBAA46DD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo", "Zoo\Zoo.csproj", "{1250F411-6D2F-46C9-A287-58D93D748D12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FishingNet", "FishingNet\FishingNet.csproj", "{12BCD9C2-0593-453B-AF52-BE884A7E3247}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1250F411-6D2F-46C9-A287-58D93D748D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1250F411-6D2F-46C9-A287-58D93D748D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1250F411-6D2F-46C9-A287-58D93D748D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BCD9C2-0593-453B-AF52-BE884A7E3247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BCD9C2-0593-453B-AF52-BE884A7E3247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BCD9C2-0593-453B-AF52-BE884A7E3247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BCD9C2-0593-453B-AF52-BE884A7E3247}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
