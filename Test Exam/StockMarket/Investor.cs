@@ -15,7 +15,7 @@ namespace StockMarket
             BrokerName = brokerName;
         }
 
-        public List<Stock> Portfolio { get; set; }
+        private List<Stock> Portfolio; 
         public string FullName { get; set; }
         public string EmailAddress { get; set; }
         public decimal MoneyToInvest { get; set; }
@@ -25,7 +25,7 @@ namespace StockMarket
         public void BuyStock(Stock stock)
 
         {
-            if (stock.MarketCapitalization >= 10000 && MoneyToInvest >= stock.PricePerShare)
+            if (stock.MarketCapitalization > 10000 && MoneyToInvest > stock.PricePerShare)
             {
                 Portfolio.Add(stock);
                 MoneyToInvest -= stock.PricePerShare;
@@ -39,7 +39,7 @@ namespace StockMarket
             {
                 return $"{companyName} does not exist.";
             }
-            else if (sellPrice <= find.PricePerShare)
+            else if (sellPrice < find.PricePerShare)
             {
                 return $"Cannot sell {companyName}.";
             }
@@ -54,22 +54,18 @@ namespace StockMarket
         public Stock FindStock(string companyName)
         {
             var find = Portfolio.FirstOrDefault(x => x.CompanyName == companyName);
-            if (find != null)
-            {
+           
                 return find;
-            }
-            return null;
+            
         }
        public Stock FindBiggestCompany()
         {
             decimal capi = Portfolio.Max(x => x.MarketCapitalization);
             Stock find = Portfolio.FirstOrDefault(x => x.MarketCapitalization == capi);
-            if (find != null)
-            {
+           
                 return find;
 
-            }
-            return null;
+            
         }
         public string InvestorInformation()
         {
