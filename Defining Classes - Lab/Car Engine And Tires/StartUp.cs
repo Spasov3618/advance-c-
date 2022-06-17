@@ -1,18 +1,37 @@
 ﻿using System;
+using System.Runtime.ConstrainedExecution;
+using CarManufacturer;
 
 namespace CarManufacturer
 {
     public class StartUp
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Car car = new Car();
+            //string make = Console.ReadLine();
+            //string model = Console.ReadLine();
+            //int year = int.Parse(Console.ReadLine());
+            //double fuelQuantity = double.Parse(Console.ReadLine());
+            //double fuelConsumption = double.Parse(Console.ReadLine());
 
-            car.Make = "VW";
-            car.Model = "MK3";
-            car.Year = 2019;
+            //Car firstCar = new Car();
+            //Car secondCar = new Car(make, model, year);
+            //Car thirdCar = new Car(make, model, year, fuelQuantity, fuelConsumption);
 
-            Console.WriteLine($"Make: {car.Make}\nModel: {car.Model}\nYear: {car.Year}");
+            var tires = new Tire[4]
+          {
+                new Tire(2015, 2.5),
+                new Tire(2015, 2.5),
+                new Tire(2015, 2.3),
+                new Tire(2015, 2.3)
+          };
+            Engine lamboEngine = new Engine(560, 6300);
+            Car lambo = new Car("lambo", "TXZ", 2010, 200, 9, lamboEngine, tires);
+
+            Console.WriteLine(lambo.WhoAmI());
+
+
         }
     }
-}
+        }
+

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32228.430
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenLines", "EvenLines\EvenLines.csproj", "{771B504C-43FE-4128-ADA3-1E39462D9DE1}"
 EndProject
@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZipAndExtract", "ZipAndExtr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyDirectory", "CopyDirectory\CopyDirectory.csproj", "{3564004F-29BB-4F4B-8E46-126FEB938E2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Directory", "04 Directory\04 Directory.csproj", "{28D46B23-CD13-46EB-B6A0-92E3CA957CD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Directory", "04 Directory\04 Directory.csproj", "{28D46B23-CD13-46EB-B6A0-92E3CA957CD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Traversal", "04.Traversal\04.Traversal.csproj", "{1F405ACA-DD3A-45BB-9911-4763DFA97893}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Traversal", "04.Traversal\04.Traversal.csproj", "{1F405ACA-DD3A-45BB-9911-4763DFA97893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extract Special Bytes", "Extract Special Bytes\Extract Special Bytes.csproj", "{25590D87-EA8A-498F-87A0-769BAAFC31EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{1F405ACA-DD3A-45BB-9911-4763DFA97893}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F405ACA-DD3A-45BB-9911-4763DFA97893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F405ACA-DD3A-45BB-9911-4763DFA97893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25590D87-EA8A-498F-87A0-769BAAFC31EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25590D87-EA8A-498F-87A0-769BAAFC31EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25590D87-EA8A-498F-87A0-769BAAFC31EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25590D87-EA8A-498F-87A0-769BAAFC31EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
