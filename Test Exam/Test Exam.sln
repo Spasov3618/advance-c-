@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Survivor", "02.Survivor\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiRental", "SkiRental\SkiRental.csproj", "{6347CFF6-AAD4-4134-9317-8DD9F93F6865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Lootbox", "01. Lootbox\01. Lootbox.csproj", "{E7969D79-47FF-479F-A6CC-2C3B61449C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Lootbox", "01. Lootbox\01. Lootbox.csproj", "{E7969D79-47FF-479F-A6CC-2C3B61449C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Re-Volt", "02. Re-Volt\02. Re-Volt.csproj", "{CADF2F67-F7BA-44B0-8236-8D27219FAFF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{E7969D79-47FF-479F-A6CC-2C3B61449C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7969D79-47FF-479F-A6CC-2C3B61449C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7969D79-47FF-479F-A6CC-2C3B61449C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADF2F67-F7BA-44B0-8236-8D27219FAFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADF2F67-F7BA-44B0-8236-8D27219FAFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADF2F67-F7BA-44B0-8236-8D27219FAFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADF2F67-F7BA-44B0-8236-8D27219FAFF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

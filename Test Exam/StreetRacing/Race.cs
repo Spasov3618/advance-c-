@@ -58,9 +58,8 @@ namespace StreetRacing
         }
         public Car GetMostPowerfulCar()
         {
-            int maxhors = Participants.Max(n => n.HorsePower);
-            Car search = Participants.FirstOrDefault(n => n.HorsePower == maxhors);
-            return search;
+           
+            return Participants.OrderByDescending(n => n.HorsePower).FirstOrDefault();
         }
         public string Report()
         {

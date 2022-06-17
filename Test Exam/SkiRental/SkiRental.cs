@@ -39,17 +39,13 @@ namespace SkiRental
        public Ski GetNewestSki()
         {
             //int ski = Data.Max(n => n.Year);
-            Ski newSki = Data.OrderByDescending(n => n.Year).First();
-            if (newSki == null)
-            {
-                return null;
-            }
-            return newSki;
+            return Data.OrderByDescending(n => n.Year).FirstOrDefault();
+           
         }
-       public string GetSki(string manufacturer, string model)
+       public Ski GetSki(string manufacturer, string model)
         {
-            var ski = Data.Select(n => n.Manufacturer == manufacturer && n.Model == model).ToList();
-            return ski.ToString();
+            Ski ski = Data.FirstOrDefault(n => n.Manufacturer == manufacturer && n.Model == model);
+            return ski;
         }
         public string	GetStatistics()
         { 
