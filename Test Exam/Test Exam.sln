@@ -43,7 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiRental", "SkiRental\SkiR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Lootbox", "01. Lootbox\01. Lootbox.csproj", "{E7969D79-47FF-479F-A6CC-2C3B61449C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Re-Volt", "02. Re-Volt\02. Re-Volt.csproj", "{CADF2F67-F7BA-44B0-8236-8D27219FAFF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Re-Volt", "02. Re-Volt\02. Re-Volt.csproj", "{CADF2F67-F7BA-44B0-8236-8D27219FAFF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guild", "Guild\Guild.csproj", "{EFCE035D-D6FE-4757-AEF1-470F47E13EB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Warm Winter", "01.Warm Winter\01.Warm Winter.csproj", "{C2F7A2A1-DDC3-487E-9283-A9A3BC4315CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +139,14 @@ Global
 		{CADF2F67-F7BA-44B0-8236-8D27219FAFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CADF2F67-F7BA-44B0-8236-8D27219FAFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CADF2F67-F7BA-44B0-8236-8D27219FAFF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFCE035D-D6FE-4757-AEF1-470F47E13EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCE035D-D6FE-4757-AEF1-470F47E13EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCE035D-D6FE-4757-AEF1-470F47E13EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCE035D-D6FE-4757-AEF1-470F47E13EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F7A2A1-DDC3-487E-9283-A9A3BC4315CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F7A2A1-DDC3-487E-9283-A9A3BC4315CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F7A2A1-DDC3-487E-9283-A9A3BC4315CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F7A2A1-DDC3-487E-9283-A9A3BC4315CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

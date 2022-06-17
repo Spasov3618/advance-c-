@@ -56,7 +56,17 @@ namespace _02._Re_Volt
                         else
                         {
                             rowIndex = n - 1;
-                            matrix[rowIndex, colIndex] = 'f';
+                            if (matrix[rowIndex, colIndex] == 'F')
+                            {
+                                matrix[rowIndex, colIndex] = 'f';
+                                Console.WriteLine("Player won!");
+                                won = true;
+                                break;
+                            }
+                            else
+                            {
+                                matrix[rowIndex, colIndex] = 'f';
+                            }
                         }
                         
                     }
@@ -72,13 +82,7 @@ namespace _02._Re_Volt
                         matrix[rowIndex, colIndex] = 'f';
 
                     }
-                     if (matrix[rowIndex , colIndex] == 'F')
-                    {
-                        matrix[rowIndex , colIndex] = 'f';
-                        Console.WriteLine("Player won!");
-                        won = true;
-                        break;
-                    }
+                     
 
 
                 }
@@ -108,7 +112,17 @@ namespace _02._Re_Volt
                         else
                         {
                             rowIndex = 0;
-                            matrix[rowIndex, colIndex] = 'f';
+                            if (matrix[rowIndex, colIndex] == 'F')
+                            {
+                                matrix[rowIndex, colIndex] = 'f';
+                                Console.WriteLine("Player won!");
+                                won = true;
+                                break;
+                            }
+                            else
+                            {
+                                matrix[rowIndex, colIndex] = 'f';
+                            }
                         }
 
                     }
@@ -124,13 +138,7 @@ namespace _02._Re_Volt
                         rowIndex++;
                         matrix[rowIndex, colIndex] = 'f';
                     }
-                     if (matrix[rowIndex , colIndex] == 'F')
-                    {
-                        matrix[rowIndex , colIndex] = 'f';
-                        Console.WriteLine("Player won!");
-                        won = true;
-                        break;
-                    }
+                    
                 }
                 else if (direction == "left")
                 {
@@ -158,7 +166,17 @@ namespace _02._Re_Volt
                         else
                         {
                             colIndex = n - 1;
-                            matrix[rowIndex, colIndex] = 'f';
+                            if (matrix[rowIndex, colIndex] == 'F')
+                            {
+                                matrix[rowIndex, colIndex] = 'f';
+                                Console.WriteLine("Player won!");
+                                won = true;
+                                break;
+                            }
+                            else
+                            {
+                                matrix[rowIndex, colIndex] = 'f';
+                            }
                         }
 
                     }
@@ -172,13 +190,7 @@ namespace _02._Re_Volt
                         colIndex--;
                         matrix[rowIndex, colIndex] = 'f';
                     }
-                     if (matrix[rowIndex , colIndex] == 'F')
-                    {
-                        matrix[rowIndex , colIndex] = 'f';
-                        Console.WriteLine("Player won!");
-                        won = true;
-                        break;
-                    }
+                   
                 }
                 else if (direction == "right")
                 {
@@ -206,7 +218,18 @@ namespace _02._Re_Volt
                         else
                         {
                             colIndex = 0;
-                            matrix[rowIndex, colIndex] = 'f';
+                            if (matrix[rowIndex, colIndex] == 'F')
+                            {
+                                matrix[rowIndex, colIndex] = 'f';
+                                Console.WriteLine("Player won!");
+                                won = true;
+                                break;
+                            }
+                            else
+                            {
+                                matrix[rowIndex, colIndex] = 'f';
+                            }
+                         
                         }
 
                     }
@@ -221,13 +244,7 @@ namespace _02._Re_Volt
                         colIndex++;
                         matrix[rowIndex, colIndex] = 'f';
                     }
-                     if (matrix[rowIndex , colIndex] == 'F')
-                    {
-                        matrix[rowIndex , colIndex] = 'f';
-                        Console.WriteLine("Player won!");
-                        won = true;
-                        break;
-                    }
+                    
                 }
             }
             if (!won)
