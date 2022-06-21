@@ -6,7 +6,21 @@ namespace _02._Recursive_Factorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           int n = int.Parse(Console.ReadLine());
+           
+            long sum = FactorielS(n);
+           
+            Console.WriteLine(sum);
+        }
+
+        public static long FactorielS(int n)
+        {
+            if (n == 0)
+            {
+                return 1;
+            }
+            long sum = n * FactorielS(n - 1);
+            return sum;
         }
     }
 }
