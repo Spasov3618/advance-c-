@@ -59,9 +59,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Warships", "02. Warship
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheRace", "The Race - skeleton\TheRace.csproj", "{D8CF3AD1-DC41-490D-8F22-61D50C1D2B75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Cooking", "01. Cooking\01. Cooking.csproj", "{3F2624BD-F760-4026-AB5C-303D5116DFDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Cooking", "01. Cooking\01. Cooking.csproj", "{3F2624BD-F760-4026-AB5C-303D5116DFDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Selling", "02. Selling\02. Selling.csproj", "{56E7E85C-7630-4086-B5F7-E30C3D8AE87B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Selling", "02. Selling\02. Selling.csproj", "{56E7E85C-7630-4086-B5F7-E30C3D8AE87B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BakeryOpenning", "Opening\BakeryOpenning.csproj", "{87679052-198B-4784-8099-80B96B7E835D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Scheduling", "01. Scheduling\01. Scheduling.csproj", "{80B1741E-8176-4B7C-BD92-EAF299124A7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +193,14 @@ Global
 		{56E7E85C-7630-4086-B5F7-E30C3D8AE87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56E7E85C-7630-4086-B5F7-E30C3D8AE87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56E7E85C-7630-4086-B5F7-E30C3D8AE87B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87679052-198B-4784-8099-80B96B7E835D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87679052-198B-4784-8099-80B96B7E835D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87679052-198B-4784-8099-80B96B7E835D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87679052-198B-4784-8099-80B96B7E835D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B1741E-8176-4B7C-BD92-EAF299124A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B1741E-8176-4B7C-BD92-EAF299124A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B1741E-8176-4B7C-BD92-EAF299124A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B1741E-8176-4B7C-BD92-EAF299124A7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
