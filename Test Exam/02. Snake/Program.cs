@@ -48,7 +48,8 @@ namespace _02._Snake
             {
                 string direction = Console.ReadLine();
                 matrix[rowBee, colBee] = '.';
-                Pozition(ref rowBee, ref colBee, direction);
+                Position(ref rowBee, ref colBee, direction);
+               
                 if (isIndex(n, rowBee, colBee))
                 {
                     Check(matrix, ref rowBee, ref colBee, rowBarr, colBarr, rowSecondBarr, colSecondBarr, ref food);
@@ -71,7 +72,7 @@ namespace _02._Snake
             PrintMatrix(n, matrix);
         }
 
-        private static void Pozition(ref int rowBee, ref int colBee, string direction)
+        private static void Position(ref int rowBee, ref int colBee, string direction)
         {
             if (direction == "up")
             {
