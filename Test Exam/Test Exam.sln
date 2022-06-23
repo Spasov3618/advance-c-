@@ -65,11 +65,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Selling", "02. Selling\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BakeryOpenning", "Opening\BakeryOpenning.csproj", "{87679052-198B-4784-8099-80B96B7E835D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Scheduling", "01. Scheduling\01. Scheduling.csproj", "{80B1741E-8176-4B7C-BD92-EAF299124A7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Scheduling", "01. Scheduling\01. Scheduling.csproj", "{80B1741E-8176-4B7C-BD92-EAF299124A7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Garden", "02. Garden\02. Garden.csproj", "{E4260205-1D78-43C0-AD64-2803F236A7F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Garden", "02. Garden\02. Garden.csproj", "{E4260205-1D78-43C0-AD64-2803F236A7F3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassroomProject", "Classroom\ClassroomProject.csproj", "{70960500-2A75-4495-AF26-5684748CAA48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Flower Wreaths", "01. Flower Wreaths\01. Flower Wreaths.csproj", "{71AB7968-62A2-48B5-A1ED-8858FB46C3D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{70960500-2A75-4495-AF26-5684748CAA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70960500-2A75-4495-AF26-5684748CAA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70960500-2A75-4495-AF26-5684748CAA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71AB7968-62A2-48B5-A1ED-8858FB46C3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AB7968-62A2-48B5-A1ED-8858FB46C3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AB7968-62A2-48B5-A1ED-8858FB46C3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AB7968-62A2-48B5-A1ED-8858FB46C3D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
