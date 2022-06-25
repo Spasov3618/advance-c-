@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1", "Problem1\Problem1.csproj", "{C7F05977-4C52-47B4-A078-1B5F877FA74B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem1", "Problem1\Problem1.csproj", "{C7F05977-4C52-47B4-A078-1B5F877FA74B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2", "Problem2\Problem2.csproj", "{C82A1E70-FB23-40FC-88DF-95CF041062F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem2", "Problem2\Problem2.csproj", "{C82A1E70-FB23-40FC-88DF-95CF041062F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Renovators", "Renovators\Renovators.csproj", "{6E1FD702-688B-4A1B-B1E4-8385534CFAF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C82A1E70-FB23-40FC-88DF-95CF041062F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C82A1E70-FB23-40FC-88DF-95CF041062F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C82A1E70-FB23-40FC-88DF-95CF041062F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1FD702-688B-4A1B-B1E4-8385534CFAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1FD702-688B-4A1B-B1E4-8385534CFAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1FD702-688B-4A1B-B1E4-8385534CFAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1FD702-688B-4A1B-B1E4-8385534CFAF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
